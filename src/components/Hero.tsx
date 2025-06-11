@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export function Hero() {
   return (
-    <section id="home" className="relative pt-32 pb-16 sm:pt-40 sm:pb-24 bg-gradient-to-b from-[#6d143c]/10 to-white dark:to-gray-900">
+    <section id="home" className="relative pt-64 pb-64 sm:pt-72 sm:pb-72 bg-gradient-to-b from-[#6d143c]/10 to-white dark:to-gray-900">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <motion.div
@@ -15,7 +15,7 @@ export function Hero() {
             <img
               src="/img/ProPic.JPG"
               alt="Asma Zehi"
-              className="mx-auto mb-6 rounded-full w-40 h-40 object-cover border-4 border-pink-400 shadow-lg"
+              className="mx-auto mb-6 rounded-full w-72 h-72 object-cover border-4 border-pink-400 shadow-lg"
             />
             <h1 className="text-4xl font-bold tracking-tight text-[#6d143c] dark:text-pink-200 sm:text-6xl">
               Asma Zehi
