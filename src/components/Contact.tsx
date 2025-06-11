@@ -23,7 +23,7 @@ export function Contact() {
             Get in Touch
           </h2>
           <p className="text-lg leading-8 text-gray-600 dark:text-gray-300 mb-8">
-            I'm currently seeking an end-of-studies internship starting January 2026. Feel free to reach out if you're interested in working together!
+            I&apos;m currently seeking an end-of-studies internship starting January 2026. Feel free to reach out if you&apos;re interested in working together!
           </p>
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-4">
