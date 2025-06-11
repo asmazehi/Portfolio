@@ -25,7 +25,7 @@ export function About() {
               I am in my final year of engineering studies at ESPRIT, specializing in <span className="font-semibold text-pink-500">Cloud Computing and DevOps</span>. My main expertise and academic focus are in building, automating, and scaling cloud-native solutions and DevOps pipelines.<br /><br />
               I am also a passionate <span className="font-semibold text-pink-500">Full Stack Software Engineer</span> with strong experience in modern web and application development.<br /><br />
               Beyond tech, I have a long-standing career in swimming, having competed with the Tunisian national team for years. I am currently a swimming coach, which has taught me discipline, leadership, and a love for helping others grow.<br /><br />
-              My journey in both tech and sports has shaped me into a professional who values teamwork, perseverance, and continuous improvement. I am seeking an end-of-studies internship starting January 2025, where I can apply and enhance my skills in Cloud, DevOps, and ML/AI.
+              My journey in both tech and sports has shaped me into a professional who values teamwork, perseverance, and continuous improvement. I am seeking an end-of-studies internship starting January 2026 where I can apply and enhance my skills in Cloud, DevOps, and ML/AI.
             </p>
             <ul className="mt-6 space-y-4 text-gray-600 dark:text-gray-300">
               <li className="flex items-center"><span className="mr-2">•</span> Cloud platforms (OpenStack, Azure, AWS)</li>
