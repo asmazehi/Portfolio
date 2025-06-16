@@ -35,8 +35,8 @@ export function About() {
               <li className="flex items-center"><span className="mr-2">•</span> Professional swimmer & coach: discipline, leadership, and teamwork</li>
             </ul>
           </div>
-          
-          {/* Image Container with reduced black merge */}
+
+          {/* Image Container */}
           <div
             className="absolute top-0 right-0 w-[40rem] h-[60rem] rounded-2xl z-0 hidden lg:block"
             style={{
@@ -46,19 +46,29 @@ export function About() {
               backgroundPosition: 'center top',
               right: '-8rem',
               top: '-4rem',
-            }}>
-
-            </div>
-
+            }} />
         </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.7 }}
-          className="mx-auto max-w-4xl mt-12"
+          className="mx-auto max-w-5xl mt-12"
         >
           <h3 className="text-2xl font-bold text-[#6d143c] dark:text-pink-200 mb-4">Licenses & Certifications</h3>
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            
+            {/* IBM */}
+            <div className="flex items-center gap-4 bg-pink-50 dark:bg-pink-900/30 rounded-xl p-4 shadow">
+              <img src="/img/R (1).jpg" alt="IBM Logo" className="h-10 w-10 object-contain rounded bg-white p-1" />
+              <div>
+                <div className="font-semibold text-pink-700 dark:text-pink-300">Exploratory Data Analysis for Machine Learning</div>
+                <div className="text-sm text-gray-600 dark:text-gray-300">IBM (via Coursera)</div>
+                <div className="text-xs text-gray-500 dark:text-gray-400">Issued June 2025</div>
+              </div>
+            </div>
+
+            {/* AWS */}
             <div className="flex items-center gap-4 bg-pink-50 dark:bg-pink-900/30 rounded-xl p-4 shadow">
               <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS Logo" className="h-10 w-10 object-contain rounded" />
               <div>
@@ -67,6 +77,8 @@ export function About() {
                 <div className="text-xs text-gray-500 dark:text-gray-400">Issued Jan 2025</div>
               </div>
             </div>
+
+            {/* Cisco */}
             <div className="flex items-center gap-4 bg-pink-50 dark:bg-pink-900/30 rounded-xl p-4 shadow">
               <img src="/img/Cisco_logo_blue_2016.svg.png" alt="Cisco Logo" className="h-10 w-10 object-contain rounded bg-white p-1" />
               <div>
@@ -75,6 +87,7 @@ export function About() {
                 <div className="text-xs text-gray-500 dark:text-gray-400">Issued May 2024</div>
               </div>
             </div>
+
           </div>
         </motion.div>
       </div>

@@ -30,7 +30,7 @@ const projects = [
       'Built backend with Spring Boot and frontend with Angular for robust functionality.',
     ],
     githubLinks: [
-      { name: 'View on GitHub', url: 'https://gitlab.com/asmazehi/CocoRico' }
+      { name: 'View on GitLab', url: 'https://gitlab.com/asmazehi/CocoRico' }
     ]
   },
   {
